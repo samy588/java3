@@ -15,7 +15,7 @@ public class dd {
 			
 		}
 		else 
-			return x+(x-1);
+			return x+f(x-1);
 		
 		}
 		
