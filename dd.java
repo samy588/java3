@@ -9,13 +9,15 @@ public class dd {
 	}
 	public   static int f(int x)
 	{
-		if(x==0)
+		if(x!=0)
 		{
-			return x;
+			return x+f(x-1);
+			
 			
 		}
 		else 
-			return x+(x-1);
+			return x;
+		//forgot the function name
 		
 		}
 		
