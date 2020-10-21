@@ -18,7 +18,7 @@ public class dd {
 		else 
 			return x;
 		//forgot the function name
-		
+		System.out.println();
 		}
 		
 	}
